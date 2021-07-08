@@ -1,0 +1,33 @@
+form#new-post {
+    background: #FFF;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
+    width: 100%;
+    max-width: 580px;
+    margin: 50px auto;
+}
+
+form#new-post input[type='text'] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+form#new-post label {
+    margin-top: 18px;
+}
+
+form#new-post button[type='submit'] {
+    background: #4B0082;
+    padding: 12px;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-top: 18px;
+    color: #FFF;
+    font-weight: bold;
+    border: none;
+}
